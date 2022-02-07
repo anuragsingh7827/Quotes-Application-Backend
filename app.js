@@ -26,7 +26,7 @@ mongoose.connect(dbURL)
 
 app.use(mongoSanitize());
 app.use(cors({
-    origin: ['https://focused-aryabhata-72805e.netlify.app']     //pass this url as an env variable while deploying to store it in config vars on heroku
+    origin: ['https://stupefied-engelbart-c0e946.netlify.app']     //pass this url as an env variable while deploying to store it in config vars on heroku
 }));
 app.use(express.json());
 
