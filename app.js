@@ -30,7 +30,7 @@ app.use(cors({
 }));
 app.use(express.json());
 
-// seedDB();
+seedDB();
 
 app.use('/quotes',quoteAPIs);
 app.use(reviewAPIs);
