@@ -26,7 +26,7 @@ mongoose.connect(dbURL)
 
 app.use(mongoSanitize());
 app.use(cors({
-    origin: ['https://inspiring-bassi-292ddb.netlify.app']
+    origin: ['https://animated-mousse-74c3b0.netlify.app']
 }));
 app.use(express.json());
 
